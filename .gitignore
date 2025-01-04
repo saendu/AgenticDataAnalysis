@@ -1,15 +1,26 @@
-*.csv
-.conda/
+# Python
 __pycache__/
-*.ipynb_checkpoints/
-*.pkl
-*.png
-*.pdf
-*.pickle
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 venv/
 .env
 
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Application specific
+uploads/*
+!uploads/.gitkeep
+images/plotly_figures/pickle/*
+!images/plotly_figures/pickle/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
