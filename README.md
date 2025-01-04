@@ -1,3 +1,8 @@
+# Sändu
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
 # Agentic Data Analysis
 
 This is an AI agent built in LangGraph that can perform data analysis on a provided dataset. It is to accompany my Youtube video to showcase some advanced LangGraph techniques.
